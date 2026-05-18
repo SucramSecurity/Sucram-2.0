@@ -19,3 +19,5 @@ Apache 2.0 (full license coming soon)
 
 ## Status
 Early development — core modules and architecture in progress.. 
+# Sucram 2.0
+A next-generation cybersecurity suite focused on identity protection, threat detection, and account-integrity monitoring.
