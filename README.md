@@ -345,3 +345,128 @@ The Village Brotherhood Project
 📧 Email: your‑business‑email-here  
 🌐 Website: your‑website-here  
 📍 Milledgeville, GA  
+
+💰 Sucram 2.0 — Pricing & Monetization Model
+
+Sucram 2.0 offers flexible pricing designed for individuals, small businesses, enterprises, and organizations that require high‑assurance identity protection and real‑time threat intelligence.
+
+Below is the official pricing model, structured to attract customers, sponsors, and enterprise clients.
+
+---
+
+🟦 Free Tier — Community Edition
+Price: $0 / forever  
+Best for: Individuals, students, researchers, open‑source users
+
+Includes:
+- Basic identity monitoring  
+- Device fingerprinting  
+- Session tracking (single device)  
+- Low‑frequency threat alerts  
+- Community support  
+- Access to open‑source modules  
+
+Limitations:
+- No enterprise integrations  
+- No advanced analytics  
+- No multi‑device correlation  
+- No SLA or guaranteed uptime  
+
+---
+
+🟩 Pro Tier — Personal Security Suite
+Price: $12.99 / month or $120 / year  
+Best for: Individuals who want full identity protection
+
+Includes everything in Free, plus:
+- Real‑time threat detection  
+- Behavioral analytics  
+- Multi‑device session monitoring  
+- Device trust scoring  
+- Tamper‑proof audit logs  
+- Priority support  
+- Encrypted cloud sync  
+
+---
+
+🟧 Business Tier — Small Business Security
+Price: $49 / month per team (up to 5 users)  
+Best for: Small businesses, startups, nonprofits
+
+Includes everything in Pro, plus:
+- Team identity monitoring  
+- Shared threat dashboard  
+- Policy Engine (basic rules)  
+- Multi‑user device intelligence  
+- Automated incident reports  
+- Business‑grade API access  
+- Email + chat support  
+
+---
+
+🟥 Enterprise Tier — Zero‑Trust Identity Platform
+Price: Custom (typically $499–$2,500 / month)  
+Best for: Enterprises, financial institutions, government, healthcare
+
+Includes everything in Business, plus:
+- Full Policy Engine (advanced rules)  
+- AI‑driven threat correlation  
+- SOC‑2 friendly audit logging  
+- GDPR‑aligned privacy controls  
+- Multi‑tenant architecture  
+- SSO / SAML / OAuth integrations  
+- Dedicated account manager  
+- 24/7 support + SLA  
+- On‑premise or hybrid deployment  
+
+---
+
+🟪 MSSP Tier — Managed Security Service Provider
+Price: Custom revenue‑share or licensing  
+Best for: Security firms, IT providers, consultants
+
+Includes:
+- White‑label Sucram 2.0  
+- Reseller licensing  
+- Multi‑client dashboards  
+- Automated reporting  
+- Priority engineering support  
+- Co‑branding opportunities  
+
+---
+
+🟨 Sponsor & Donor Tiers
+Designed for organizations that want to support Sucram 2.0’s mission.
+
+Bronze Sponsor — $500 / year
+- Logo on README + website  
+- Public thank‑you  
+- Early access to updates  
+
+Silver Sponsor — $2,500 / year
+- Everything in Bronze  
+- Co‑branded marketing  
+- Priority feature requests  
+
+Gold Sponsor — $10,000 / year
+- Everything in Silver  
+- Dedicated engineering hours  
+- Custom integrations  
+- Private roadmap access  
+
+Platinum Sponsor — $25,000+ / year
+- Everything in Gold  
+- Strategic partnership  
+- Joint research opportunities  
+- Co‑ownership of select modules  
+
+---
+
+💳 Accepted Payment Methods
+- Stripe (credit/debit cards)  
+- PayPal Business  
+- ACH / Bank Transfer  
+- Crypto (BTC, ETH, USDC)  
+- Enterprise invoicing  
+
+---
