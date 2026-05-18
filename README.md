@@ -127,3 +127,38 @@ What This Module Enables
 - Prevention of session hijacking  
 - Real‑time behavioral monitoring  
 - Stronger identity‑to‑session linkage  
+🖥️ Device Intelligence Module (DIM)
+The Device Intelligence Module analyzes and verifies the trustworthiness of every device interacting with Sucram 2.0. It builds a persistent device identity, detects spoofing attempts, and evaluates device‑level risk in real time.
+
+Device Profiling
+- Hardware fingerprinting  
+- Operating system and version analysis  
+- Browser and user‑agent validation  
+- Installed security features (MFA, biometrics, encryption)  
+- Device reputation scoring  
+
+Device Anomalies
+- Spoofed or cloned device fingerprints  
+- Sudden changes in OS or browser identity  
+- Unrecognized device attributes  
+- High‑risk device behavior patterns  
+- Device mismatch across sessions  
+
+Device Trust Evaluation
+1. Generate device fingerprint  
+2. Compare against known trusted devices  
+3. Evaluate OS, browser, and security posture  
+4. Assign device trust score  
+5. Trigger policy actions if risk is detected  
+
+Device Trust Score
+- 0–30: Untrusted Device — block or require full verification  
+- 31–70: Suspicious Device — challenge with MFA or additional checks  
+- 71–100: Trusted Device — normal access  
+
+What This Module Enables
+- Stronger identity‑to‑device linkage  
+- Detection of device spoofing and cloning  
+- Prevention of unauthorized device access  
+- Real‑time device risk scoring  
+- Integration with session and identity monitoring  
