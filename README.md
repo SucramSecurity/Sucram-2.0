@@ -1128,8 +1128,5 @@ Sponsors receive:
 - Public recognition  
 - Access to research reports  
 - Early access to new modules  
-- Invitations to advisory meetings  
+- Invitations to advisory meetings
 
-This section is designed to attract corporate sponsors, foundations, and enterprise partners.
-
----
