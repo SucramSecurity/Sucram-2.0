@@ -219,4 +219,4 @@ The Village Brotherhood Project
 ---
 
 📜 License
-Sucram 2.0 will be released under the Apache 2.0 License, enabling open‑source collaboration with commercial flexibility.
+Sucram 2.0 will be released under the Apache 2.0 License, enabling open‑source collaboration with commercial flexibility..
