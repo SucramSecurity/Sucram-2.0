@@ -470,3 +470,221 @@ Platinum Sponsor — $25,000+ / year
 - Enterprise invoicing  
 
 ---
+🧩 Sucram 2.0 — API Documentation
+
+The Sucram 2.0 API is designed for developers, businesses, and security teams who want to integrate identity intelligence, device trust, session monitoring, and threat detection directly into their applications.
+
+The API follows a RESTful, JSON‑based, token‑authenticated architecture with enterprise‑grade security controls.
+
+---
+
+🔑 Authentication
+All API requests require:
+
+`
+Authorization: Bearer <API_KEY>
+Content-Type: application/json
+`
+
+API keys are issued per:
+- User  
+- Business  
+- Enterprise tenant  
+
+Keys can be rotated, revoked, and scoped by permission.
+
+---
+
+📘 Base URL
+`
+https://api.sucram.io/v1/
+`
+
+---
+
+📚 API Endpoints Overview
+
+Below is the full endpoint map, grouped by module.
+
+---
+
+🔐 Identity Discovery Module (IDM) API
+
+[POST] /identity/ingest
+Upload identity signals (device, network, behavior).
+
+Body:
+`json
+{
+  "device_fingerprint": "...",
+  "network_signature": "...",
+  "behavior": { "typing_rhythm": "...", "timing": "..." }
+}
+`
+
+Returns: Identity record ID + initial risk score.
+
+---
+
+[GET] /identity/:id
+Retrieve full identity profile.
+
+Returns:
+- Confidence score  
+- Identity signals  
+- Historical patterns  
+- Threat flags  
+
+---
+
+[GET] /identity/:id/risk
+Retrieve current identity risk score.
+
+---
+
+🛡️ Threat Detection Engine (TDE) API
+
+[POST] /threat/evaluate
+Submit signals for real‑time threat scoring.
+
+Body:
+`json
+{
+  "identity_id": "123",
+  "device_id": "abc",
+  "session_id": "xyz"
+}
+`
+
+Returns:
+- Threat score  
+- Threat category  
+- Recommended action (ALLOW / BLOCK / REVIEW / RETRY)  
+
+---
+
+[GET] /threat/:id
+Retrieve threat event details.
+
+---
+
+📡 Session Monitoring Module (SMM) API
+
+[POST] /session/start
+Register a new session.
+
+Body:
+`json
+{
+  "identity_id": "123",
+  "device_id": "abc",
+  "ip": "192.168.1.1"
+}
+`
+
+---
+
+[POST] /session/heartbeat
+Send periodic session updates.
+
+---
+
+[POST] /session/end
+Terminate a session.
+
+---
+
+[GET] /session/:id
+Retrieve session details, anomalies, and risk score.
+
+---
+
+🖥️ Device Intelligence Module (DIM) API
+
+[POST] /device/register
+Register a new device fingerprint.
+
+---
+
+[GET] /device/:id
+Retrieve device trust score and profile.
+
+---
+
+[POST] /device/evaluate
+Recalculate device trust score.
+
+---
+
+⚖️ Policy Engine Module (PEM) API
+
+[GET] /policy
+List all active policies.
+
+---
+
+[POST] /policy/evaluate
+Evaluate a risk score against active policies.
+
+Returns:
+- ALLOW  
+- BLOCK  
+- REVIEW  
+- RETRY  
+
+---
+
+[POST] /policy/custom
+Create or update custom rules (Business + Enterprise only).
+
+---
+
+🧾 Audit & Logging API
+
+[GET] /audit/events
+Retrieve tamper‑proof event logs.
+
+Supports:
+- Pagination  
+- Filtering  
+- Export tokens  
+
+---
+
+[GET] /audit/:id
+Retrieve a single event with chain‑of‑custody metadata.
+
+---
+
+🧪 Testing Sandbox
+
+A dedicated sandbox environment is available for developers:
+
+`
+https://sandbox.sucram.io/v1/
+`
+
+Includes:
+- Fake identities  
+- Fake devices  
+- Simulated threats  
+- Replayable sessions  
+
+---
+
+📈 Rate Limits
+- Free: 100 requests/day  
+- Pro: 10,000 requests/day  
+- Business: 100,000 requests/day  
+- Enterprise: Unlimited (SLA‑based)  
+
+---
+
+🛠️ SDKs (Coming Soon)
+- JavaScript / TypeScript  
+- Python  
+- Go  
+- Rust  
+- C# (.NET)  
+
+---
