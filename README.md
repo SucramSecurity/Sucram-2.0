@@ -162,3 +162,41 @@ What This Module Enables
 - Prevention of unauthorized device access  
 - Real‑time device risk scoring  
 - Integration with session and identity monitoring  
+
+⚖️ Policy Engine Module (PEM)
+The Policy Engine Module defines how Sucram 2.0 responds to identity, device, session, and network events. It converts risk scores and threat signals into clear, automated security actions. This module ensures consistent, predictable, and enforceable security behavior across the entire system.
+
+Policy Types
+- Identity Policies — govern identity verification, MFA challenges, and trust requirements  
+- Device Policies — enforce device trust levels and access restrictions  
+- Session Policies — control session behavior, timeouts, and escalation rules  
+- Network Policies — manage IP reputation, geo‑restrictions, and anomaly responses  
+- Threat Policies — define actions for each threat severity level  
+
+Policy Outcomes
+- ALLOW — user continues without interruption  
+- BLOCK — deny access or action  
+- REVIEW — require manual or automated verification  
+- RETRY — request additional authentication or reattempt  
+
+Policy Evaluation Flow
+1. Receive risk score from TDE  
+2. Match against active policy rules  
+3. Determine required action  
+4. Apply action to identity, device, or session  
+5. Log policy decision for audit and analytics  
+
+Policy Rule Structure
+A policy rule typically includes:  
+- Condition (e.g., “Device Trust Score < 40”)  
+- Context (identity, device, session, network)  
+- Action (ALLOW, BLOCK, REVIEW, RETRY)  
+- Severity level  
+- Logging requirements  
+
+What This Module Enables
+- Consistent enforcement of security rules  
+- Automated decision‑making across all modules  
+- Customizable security behavior  
+- Reduced false positives through layered logic  
+- Transparent and auditable policy decisions  
