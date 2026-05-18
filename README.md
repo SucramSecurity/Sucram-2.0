@@ -1,6 +1,6 @@
 # Sucram 2.0
 
-Sucram 2.0 is a next‑generation cybersecurity suite focused on **identity protection**, **threat detection**, and **account‑integrity monitoring**.  
+Sucram  is a next‑generation cybersecurity suite focused on **identity protection**, **threat detection**, and **account‑integrity monitoring**.  
 Built by **The Village Brotherhood Project**, Sucram 2.0 provides transparent, verifiable, and user‑controlled security tools designed to protect digital identities in real time.
 
 ---
