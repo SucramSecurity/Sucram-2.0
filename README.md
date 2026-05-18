@@ -18,4 +18,4 @@ To give people control over their digital identity through transparent, open‑s
 Apache 2.0 (full license coming soon)
 
 ## Status
-Early development — core modules and architecture in progress.
+Early development — core modules and architecture in progress.. 
