@@ -838,4 +838,127 @@ Sponsors and enterprise partners may join the Security Advisory Circle for early
 - Architecture changes  
 - Compliance updates  
 
+---🛡️ Sucram 2.0 — SLA Tiers & Support Guarantees
+
+Sucram 2.0 provides tiered Service Level Agreements (SLAs) designed to meet the needs of individuals, small businesses, and enterprise organizations.  
+Each tier defines guaranteed uptime, response times, support channels, and incident‑handling expectations.
+
+This SLA framework is built to align with SOC‑2, ISO 27001, and GDPR operational standards.
+
+---
+
+🟦 Community SLA — Free Tier
+Best for: Individuals, students, open‑source users  
+Price: Included with Free Tier
+
+Service Commitments
+- Uptime: Best effort (no guaranteed SLA)  
+- Support: Community forums + documentation  
+- Incident Response: No guaranteed response time  
+- Data Retention: 7 days of logs  
+- API Rate Limit: 100 requests/day  
+
+Included Services
+- Basic identity monitoring  
+- Device fingerprinting  
+- Session tracking (single device)  
+
+---
+
+🟩 Pro SLA — Personal Security
+Best for: Individuals who need reliable identity protection  
+Price: Included with Pro Tier
+
+Service Commitments
+- Uptime: 99.5% monthly  
+- Support: Email support (24–48 hr response)  
+- Incident Response: 72‑hour response window  
+- Data Retention: 30 days of logs  
+- API Rate Limit: 10,000 requests/day  
+
+Included Services
+- Real‑time threat detection  
+- Behavioral analytics  
+- Multi‑device monitoring  
+- Tamper‑proof logs  
+
+---
+
+🟧 Business SLA — Small Business
+Best for: Small businesses, startups, nonprofits  
+Price: Included with Business Tier
+
+Service Commitments
+- Uptime: 99.9% monthly  
+- Support: Email + chat support (8–12 hr response)  
+- Incident Response: 24‑hour response window  
+- Data Retention: 90 days of logs  
+- API Rate Limit: 100,000 requests/day  
+
+Included Services
+- Team identity monitoring  
+- Shared threat dashboard  
+- Basic Policy Engine  
+- Automated incident reports  
+
+---
+
+🟥 Enterprise SLA — Zero‑Trust Identity Platform
+Best for: Enterprises, financial institutions, government, healthcare  
+Price: Included with Enterprise Tier
+
+Service Commitments
+- Uptime: 99.99% monthly  
+- Support: 24/7 priority support  
+- Incident Response: 1‑hour response window  
+- Data Retention: 1 year (extendable)  
+- API Rate Limit: Unlimited (SLA‑based)  
+
+Additional Guarantees
+- Dedicated account manager  
+- Quarterly security reviews  
+- Custom policy rules  
+- On‑premise or hybrid deployment  
+- Compliance documentation package  
+
+---
+
+🟪 MSSP SLA — Managed Security Service Providers
+Best for: Security firms, IT providers, consultants  
+Price: Custom
+
+Service Commitments
+- Uptime: 99.99%  
+- Support: 24/7 engineering support  
+- Incident Response: 30‑minute response window  
+- Data Retention: Custom (1–7 years)  
+- API Rate Limit: Unlimited  
+
+Additional Guarantees
+- White‑label platform  
+- Multi‑tenant dashboards  
+- Co‑branded reporting  
+- Priority engineering queue  
+
+---
+
+🟨 Sponsor SLA — Supporter Tiers
+Sponsors receive non‑technical SLAs focused on visibility and collaboration.
+
+Bronze Sponsor
+- Public recognition  
+- Logo placement  
+
+Silver Sponsor
+- Co‑branded marketing  
+- Early access to updates  
+
+Gold Sponsor
+- Priority feature requests  
+- Quarterly strategy calls  
+
+Platinum Sponsor
+- Strategic partnership  
+- Joint research opportunities  
+
 ---
